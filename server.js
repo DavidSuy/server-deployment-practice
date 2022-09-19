@@ -12,7 +12,6 @@ app.get('/greeting', (req, res) => {
   res.json({
     greeting: 'Hello World',
   });
-  // res.send('hello');
 });
 
 app.listen(port, () => {
