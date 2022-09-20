@@ -2,8 +2,9 @@
   "name": "server-deployment-practice",
   "version": "1.0.0",
   "description": "Server deployment practice",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest --verbose --coverage"
   },
   "repository": {
